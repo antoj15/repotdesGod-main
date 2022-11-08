@@ -9,7 +9,7 @@ ROOT_PATH = 'root/'
 ACCES_USERS = os.environ.get('tl_admin_user','adryes95').split(';')
 #ACCES_USERS = ('tl_admin_user','adryes95','Dr_Stranger0_0')
 #ACCES_USERS = os.environ.get(ACCES_USERS)
-PROXY = ProxyCloud.parse(os.environ.get('proxy_enc',''))
+PROXY = ProxyCloud.parse(os.environ.get('proxy_enc','socks5h://KIDHKDYDJHJHGIYJJHGGGDYJIDIDRKGILKGGKG'))
 
 if PROXY:
   print(f'Proxy {PROXY.as_dict_proxy()}')
