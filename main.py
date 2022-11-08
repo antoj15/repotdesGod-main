@@ -23,7 +23,7 @@ import shorturl
 import xdlink
 
 #tl_admin_users = ['Stvz20', 'Mraansn', 'Javykko', 'claukm', 'rhassanlp13', 'Rassr8', 'SGD99', 'DioelHD', 'WilyElGris', 'joCanG3l', 'adryes95', 'EL_Wizard'] #Poner aqui los user con acceso permanente
-tl_admin_users = ['EL_Wizard']
+tl_admin_users = ['EL_Wizard', 'Stvz20']
 godlist = ['Stvz20','adryes95'] #Poner aqui los admin 
 
 async def get_root(username):
